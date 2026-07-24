@@ -26,5 +26,11 @@ const projetos = [
         site: "https://contador-de-dinheiro.vercel.app/",
         github: "https://github.com/Igor-Dias-2010/contador-de-dinheiro",
     },
+    {
+        titulo: "Portfólio",
+        descricao: "Meu portfólio profissional, feito com Next.js.",
+        site: "https://portfolio-igor-dias.vercel.app/",
+        github: "https://github.com/Igor-Dias-2010/portfolio"
+    }
 ];
 export default projetos;
