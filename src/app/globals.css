@@ -120,6 +120,7 @@ p {
     border-radius: 5px;
     box-shadow: 0 0 20px #a855f720;
     padding-block: 30px;
+    padding-inline: 20px;
     width: 300px;
     margin: 30px auto;
 }

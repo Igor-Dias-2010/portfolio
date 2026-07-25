@@ -28,9 +28,11 @@ const projetos = [
     },
     {
         titulo: "Portfólio",
+        imagem: "/imgs/thumbnail-portfolio.jpeg",
         descricao: "Meu portfólio profissional, feito com Next.js.",
+        tecnologias: "Next.js • JavaScript • CSS",
         site: "https://portfolio-igor-dias.vercel.app/",
-        github: "https://github.com/Igor-Dias-2010/portfolio"
-    }
+        github: "https://github.com/Igor-Dias-2010/portfolio",
+    },
 ];
 export default projetos;
