@@ -10,7 +10,13 @@ export default function CardProjeto({
 }) {
     return (
         <article className="card">
-            <Image src={imagem} alt={titulo} width={350} height={200} className="img" />
+            <Image
+                src={imagem}
+                alt={titulo}
+                width={350}
+                height={200}
+                className="img"
+            />
             <h3>{titulo}</h3>
             <p>{descricao}</p>
             <p className="tecnologias">{tecnologias}</p>

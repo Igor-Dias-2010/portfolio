@@ -144,4 +144,8 @@ p {
     #contatos {
         width: 500px;
     }
+    .projetos-container {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
 }
