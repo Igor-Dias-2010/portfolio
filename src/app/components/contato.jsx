@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Contatos() {
     return (
-        <section id="contatos">
+        <section id="contatos" className="main">
             <h2>Contato</h2>
             <p>Confira minhas redes e formas de contato:</p>
             <a

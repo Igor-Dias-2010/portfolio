@@ -3,9 +3,9 @@ import CardProjeto from "./CardProjeto";
 
 export default function Projetos() {
     return (
-        <section id="projetos">
+        <section id="projetos" className="main">
             <h2>Projetos</h2>
-            <p>
+            <p className="projetos-intro">
                 Nesta seção estão alguns dos projetos que desenvolvi para
                 colocar meus conhecimentos em prática e aprender novas
                 tecnologias.

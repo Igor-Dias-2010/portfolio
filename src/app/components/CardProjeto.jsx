@@ -13,7 +13,7 @@ export default function CardProjeto({
             <Image src={imagem} alt={titulo} width={350} height={200} className="img" />
             <h3>{titulo}</h3>
             <p>{descricao}</p>
-            <p>{tecnologias}</p>
+            <p className="tecnologias">{tecnologias}</p>
             <a href={site} target="_blank" rel="noopener noreferrer">
                 <button>Ver projeto</button>
             </a>
