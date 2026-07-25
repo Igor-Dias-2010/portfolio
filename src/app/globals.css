@@ -82,7 +82,7 @@ a:hover {
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 5px;
     padding: 32px;
-    width: 500px;
+    width: 300px;
     margin: 70px auto;
 }
 .projetos-intro {
@@ -133,6 +133,10 @@ p {
         height: 200px;
     }
     .card {
+        width: 500px;
+    }
+    #sobre,
+    #contatos {
         width: 500px;
     }
 }
