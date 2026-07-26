@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaGlobe } from "react-icons/fa";
 
 export default function Contatos() {
     return (
@@ -24,6 +24,10 @@ export default function Contatos() {
             <a href={"mailto:rogigor1712@gmail.com"}>
                 <FaEnvelope />
                 Email
+            </a>
+            <a href="https://curriculo-seven-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <FaGlobe />
+                Currículo
             </a>
         </section>
     );

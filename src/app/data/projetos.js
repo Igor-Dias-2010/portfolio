@@ -27,12 +27,29 @@ const projetos = [
         github: "https://github.com/Igor-Dias-2010/contador-de-dinheiro",
     },
     {
+        titulo: "Sandbox",
+        imagem: "/imgs/thumbnail-sandbox.jpeg",
+        descricao: "Aplicação web para desenvolvimento pessoal, para testar novas tecnologias e criar projetos mais lives.",
+        tecnologias: "Next.js • JavaScript • CSS",
+        site: "https://sandbox-two-mu.vercel.app/",
+        github: "https://github.com/Igor-Dias-2010/sandbox",
+
+    },
+    {
         titulo: "Portfólio",
         imagem: "/imgs/thumbnail-portfolio.jpeg",
         descricao: "Meu portfólio profissional, feito com Next.js.",
         tecnologias: "Next.js • JavaScript • CSS",
         site: "https://portfolio-igor-dias.vercel.app/",
         github: "https://github.com/Igor-Dias-2010/portfolio",
+    },
+    {
+        titulo: "Currículo Online",
+        imagem: "/imgs/thumbnail-curriculo.jpeg",
+        descricao: "Site para apresentação profissional",
+        tecnologias: "Next.js • CSS",
+        site: "https://curriculo-seven-pi.vercel.app/",
+        github: "https://github.com/Igor-Dias-2010/curriculo",
     },
 ];
 export default projetos;

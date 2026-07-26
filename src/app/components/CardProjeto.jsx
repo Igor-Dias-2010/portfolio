@@ -1,3 +1,4 @@
+import { FaExternalLinkAlt, FaCode } from "react-icons/fa";
 import Image from "next/image";
 
 export default function CardProjeto({
@@ -21,10 +22,16 @@ export default function CardProjeto({
             <p>{descricao}</p>
             <p className="tecnologias">{tecnologias}</p>
             <a href={site} target="_blank" rel="noopener noreferrer">
-                <button>Ver projeto</button>
+                <button>
+                    <FaExternalLinkAlt className="svg" />
+                    Ver projeto
+                </button>
             </a>
             <a href={github} target="_blank" rel="noopener noreferrer">
-                <button>GitHub</button>
+                <button>
+                    <FaCode className="svg" />
+                    GitHub
+                </button>
             </a>
         </article>
     );

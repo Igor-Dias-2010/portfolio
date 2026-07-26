@@ -19,14 +19,18 @@ button {
     color: #ffffff;
     border-radius: 5px;
     margin-top: 15px;
-    width: 80px;
-    height: 25px;
+    width: 95px;
+    height: 30px;
     transition: 0.5s;
 }
 button:hover {
     background: rgba(168, 85, 247, 0.25);
     box-shadow: 0 0 10px #a855f780;
     transform: translateY(-3) scale(1.05);
+}
+button svg {
+    margin-right: 3px;
+    font-size: 12px;
 }
 .tecnologias {
     font-family: monospace;
@@ -62,7 +66,7 @@ nav {
 a {
     display: inline-flex;
     align-items: center;
-    gap: 1px;
+    gap: 2px;
     cursor: pointer;
     font-size: 16px;
     margin-inline: 5px;
@@ -84,10 +88,10 @@ a:hover {
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 5px;
-    padding: 32px;
     width: 300px;
     margin: 70px auto;
 }
+
 .projetos-intro {
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.08);
