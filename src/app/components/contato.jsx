@@ -25,7 +25,11 @@ export default function Contatos() {
                 <FaEnvelope />
                 Email
             </a>
-            <a href="https://curriculo-seven-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a
+                href="https://curriculo-seven-pi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <FaGlobe />
                 Currículo
             </a>

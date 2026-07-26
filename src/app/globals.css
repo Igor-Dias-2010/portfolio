@@ -128,7 +128,6 @@ p {
     width: 300px;
     margin: 30px auto;
 }
-
 @media (min-width: 1080px) {
     a {
         margin-inline: 10px;
