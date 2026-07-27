@@ -37,7 +37,7 @@ const projetos = [
     },
     {
         titulo: "Portfólio",
-        imagem: "/imgs/thumbnail-portfolio.jpeg",
+        imagem: "/imgs/thumbnail-portfolio-2.jpeg",
         descricao: "Meu portfólio profissional, feito com Next.js.",
         tecnologias: "Next.js • JavaScript • CSS",
         site: "https://portfolio-igor-dias.vercel.app/",
