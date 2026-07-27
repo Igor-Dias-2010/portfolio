@@ -76,6 +76,9 @@ a {
     text-decoration: none;
     font-weight: 500;
 }
+#contatos a{
+    margin-block: 5px;
+}
 a:hover {
     color: rgb(255, 0, 255);
 }
