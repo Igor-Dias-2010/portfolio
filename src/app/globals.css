@@ -7,7 +7,7 @@ h1 {
     margin-bottom: 10px;
 }
 body {
-    background-color: #0b0a14;
+    background: linear-gradient(0deg, #0b0a14, rgb(30, 0, 30));
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     scrollbar-width: thin;
@@ -127,6 +127,63 @@ p {
     padding-inline: 20px;
     width: 300px;
     margin: 30px auto;
+}
+.background {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+    filter: blur(70px);
+
+    opacity: 0.18;
+}
+.blob1 {
+    background: #a855f7;
+    animation: flutuar 18s ease-in-out infinite;
+    top: -150px;
+    left: -150px;
+}
+
+.blob2 {
+    background: #7c3aed;
+    animation: flutuar 24s ease-in-out infinite;
+    top: 200px;
+    right: -150px;
+}
+
+.blob3 {
+    background: #3b82f6;
+    animation: flutuar 28s ease-in-out infinite;
+    bottom: -150px;
+    left: 30%;
+}
+@keyframes flutuar {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(50px, -40px);
+    }
+
+    50% {
+        transform: translate(-30px, 30px);
+    }
+
+    75% {
+        transform: translate(40px, 60px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
 }
 @media (min-width: 1080px) {
     a {
